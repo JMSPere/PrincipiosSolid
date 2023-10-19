@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipiosSolid
+namespace PrincipiosSolid.OpenClosed.Correct
 {
-    internal class Program
+    public abstract class Coche
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        public abstract int PrecioMedioCoche();
     }
 }
