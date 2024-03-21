@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterfaceSegregation\Correct\Animals.cs" />
+    <Compile Include="InterfaceSegregation\Incorrect\Animals.cs" />
     <Compile Include="LiskovSubstitution\Correct\MoreShapes.cs" />
     <Compile Include="LiskovSubstitution\Incorrect\MoreShapes.cs" />
     <Compile Include="OpenClosed\Correct\Shape.cs" />
